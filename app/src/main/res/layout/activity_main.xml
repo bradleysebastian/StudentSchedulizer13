@@ -17,11 +17,12 @@
         android:text="@string/show_terms"
         style="@style/ff_button_style"/>
 
-    <Button
-        android:id="@+id/course_load_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="showMonthlyCourseLoad"
-        android:text="@string/monthly_course_load"
-        style="@style/ff_button_style"/>
+<!--    Add'l feature still being considered-->
+<!--    <Button-->
+<!--        android:id="@+id/course_load_btn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="showMonthlyCourseLoad"-->
+<!--        android:text="@string/monthly_course_load"-->
+<!--        style="@style/ff_button_style"/>-->
 </LinearLayout>

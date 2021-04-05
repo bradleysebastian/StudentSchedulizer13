@@ -216,8 +216,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void showMonthlyCourseLoad(View view) {
-        Intent monLoadAct = new Intent(this, MonthlyWorkload.class);
-        startActivity(monLoadAct);
-    }
+//    Add'l feature still being considered
+//    public void showMonthlyCourseLoad(View view) {
+//        Intent monLoadAct = new Intent(this, MonthlyWorkload.class);
+//        startActivity(monLoadAct);
+//    }
 }

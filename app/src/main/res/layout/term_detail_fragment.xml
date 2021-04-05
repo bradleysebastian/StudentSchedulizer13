@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.beardleysebastian.studentschedulizer13.TermDetailFragment">
+
+    <TextView
+        android:id="@+id/term_title_det"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/item_name"
+        android:text="term title"/>
+
+    <TextView
+        android:id="@+id/termDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/item_description"
+        android:text="description"/>
+
+    <TextView
+        android:id="@+id/start_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/item_description"
+        android:text="start/end">
+    </TextView>
+
+</LinearLayout>

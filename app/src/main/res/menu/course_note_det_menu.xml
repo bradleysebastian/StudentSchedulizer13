@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/course_note_share"
+        android:title="@string/course_note_share"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/all_course_notes_menu"
+        android:title="@string/return_all_course_notes"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/all_courses_menu3"
+        android:title="@string/return_all_courses"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/all_terms_menu4"
+        android:title="@string/return_to_all_terms"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/main_menu_menu5"
+        android:title="@string/return_to_main"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:id="@+id/course_notes_list_frag_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllCourseNotesActivity"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/return_courses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="returnToCourses"
+        android:text="@string/return_course_det"
+        style="@style/ff_button_style"/>
+
+    <Button
+        android:id="@+id/new_course_note_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="newCourseNote"
+        android:text="@string/add_course_note"
+        style="@style/ff_button_style"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header_course_note"
+        style="@style/ff_header_style"/>
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

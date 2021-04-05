@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:id="@+id/details_fragment_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/upd_term_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_term"
+        android:onClick="updateTermInfo"
+        style="@style/ff_button_style"/>
+
+    <Button
+        android:id="@+id/show_courses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showTermsCourses"
+        android:text="@string/show_courses"
+        style="@style/ff_button_style"/>
+
+    <Button
+        android:id="@+id/del_term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_term"
+        android:onClick="deleteTerm"
+        style="@style/ff_button_style"/>
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

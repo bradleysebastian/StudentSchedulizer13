@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:id="@+id/course_det_frag_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/all_assess_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showCourseAssess"
+        android:text="@string/show_assess"
+        style="@style/ff_button_style"/>
+    <Button
+        android:id="@+id/del_course_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deleteCourse"
+        android:text="@string/del_course"
+        style="@style/ff_button_style"
+        />
+
+    <Button
+        android:id="@+id/upd_course_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_course"
+        android:onClick="updateCourse"
+        style="@style/ff_button_style"/>
+
+    <Button
+        android:id="@+id/view_course_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_course_note"
+        android:onClick="viewCourseNotes"
+        style="@style/ff_button_style"/>
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient android:startColor="#0011FF"
+        android:endColor="#000"
+        android:angle="360" />
+<!--    <solid android:color="@color/buttonField"/>-->
+    <corners android:radius="10dp" />
+    <stroke android:width="10px" android:color="#FFF" />
+<!--    <stroke android:width="10px" android:color="#6699cc" />-->
+    <padding android:left="@dimen/list_padding"/>
+    <padding android:right="@dimen/list_padding"/>
+</shape>

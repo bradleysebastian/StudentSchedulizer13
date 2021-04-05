@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Student Schedulizer 13</string>
+    <string name="save_button">Save</string>
+    <string name="date_mismatch_title">Date Mismatch!!!</string>
+    <string name="date_mismatch_msg">Start Date Before End Date</string>
+    <string name="date_mismatch_ok">Fix Now</string>
+
+    <string name="header_term"><u><b>               All Terms               </b></u></string>
+    <string name="show_terms">View All Terms</string>
+    <string name="add_term">Add Term</string>
+    <string name="show_courses">Show Term\'s Courses</string>
+    <string name="add_courses">Add Course</string>
+    <string name="remove_courses">Remove Course from Term</string>
+    <string name="delete_term">Delete This Term</string>
+    <string name="show_assess">Show Course\'s Assessments</string>
+    <string name="new_term">Enter New Term Info</string>
+    <string name="term_title">Term Name:</string>
+    <string name="term_start">Term Begins (YYYY-MM-DD)</string>
+    <string name="term_end">Term Ends (YYYY-MM-DD)</string>
+    <string name="view_terms">View Terms</string>
+    <string name="update_term">Update Term Info</string>
+    <string name="del_term_alert_title">Courses Present!</string>
+    <string name="del_term_alert_msg">Cannot delete Term - Courses attached</string>
+    <string name="del_term_alert_ok">Cancel &amp; Return</string>
+
+    <string name="header_course"><u><b>               All Courses               </b></u></string>
+    <string name="new_course">Enter New Course Info</string>
+    <string name="course_title">Course Name:</string>
+    <string name="course_start">Course Begins (YYYY-MM-DD)</string>
+    <string name="course_end">Course Ends (YYYY-MM-DD)</string>
+    <string name="course_status">Status</string>
+    <string name="update_course">Update Course Info</string>
+    <string name="return_courses">View Courses</string>
+    <string name="del_course">Delete Course</string>
+
+    <string name="mentor_name">Mentor Name</string>
+    <string name="mentor_email">Mentor Email</string>
+    <string name="mentor_phone">Mentor Phone</string>
+
+    <string name="header_assess"><u><b>               All Assessments               </b></u></string>
+    <string name="new_assess">Add Assessment</string>
+    <string name="assess_name">Assessment Name</string>
+    <string name="assess_due">Test or Project Due Date</string>
+    <string name="del_assess">Delete Assessment</string>
+    <string name="return_assess">View Assessments</string>
+    <string name="update_assess">Update Assessment</string>
+
+    <string name="header_assess_notes"><u><b>               All Assessment Notes               </b></u></string>
+    <string name="assess_notes_btn">View Assessment Notes</string>
+    <string name="new_assess_note">Add Assessment Note</string>
+    <string name="delete_assess_note">Delete Assessment Note</string>
+    <string name="upd_assess_note">Update Assessment Note</string>
+    <!--    <string name="new_assess_note">Enter Assessment Note:</string>-->
+    <string name="new_assess_note_hint">1 of 2 Performance Assessments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="header_course_note"><u><b>               All Course Notes               </b></u></string>
+    <string name="new_course_note">New Course Note</string>
+    <string name="delete_course_note">Delete Course Note</string>
+    <string name="upd_course_note">Update Course Note</string>
+    <string name="new_course_note_hint">Oracle SQL course</string>
+    <string name="view_course_note">View Course Notes</string>
+    <string name="return_course_det">Back To Course Details</string>
+    <string name="add_course_note">Add Course Note</string>
+    <string name="course_note_share">Share Course Note</string>
+    <string name="assess_note_share">Share Assessment Note</string>
+    <string name="course_start_channel">course_start_channel</string>
+    <string name="course_start_channel_desc">course_start_channel_desc</string>
+    <string name="course_start_alert">Set Alert for 2 Days Before Start Date</string>
+    <string name="course_end_alert">Set Alert for 2 Days Before End Date</string>
+    <string name="assess_day_alert">Set Alert for 2 Days Before Assessment</string>
+    <string name="assess_due_alert">Set Alert for 2 Days Before Project Due</string>
+    <string name="return_to_main">Return To Main Menu</string>
+    <string name="return_to_all_terms">Return To Terms List</string>
+    <string name="return_all_courses">Return To Course List</string>
+    <string name="return_all_course_notes">Return To Course Notes List</string>
+    <string name="return_all_assess">Return To Assessment List</string>
+    <string name="insert_sample_data">Insert Sample Data</string>
+    <string name="remove_sample_data">Remove Sample Data</string>
+    <string name="assess_objective">Objective</string>
+    <string name="assess_performance">Performance</string>
+    <string name="monthly_course_load">Monthly Course Load</string>
+
+    <string-array name="months">
+        <item>All</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+    </string-array>
+
+</resources>
